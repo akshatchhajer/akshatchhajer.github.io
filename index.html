@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logooo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Data Analyst/Engineer</p>
+            <h1>Hi, I'm <span>Akshat</span><br>Chhajer</h1>
+            <p class="s-h-p">Embrace excellence, embrace changes, embrace data..!!</p>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Picture1.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><br>
+                <h4>With a strong belief that Data is the new oil, I am a results-driven data analyst/engineer with a passion for transforming raw data into actionable insights. With a strong foundation in databases, statistics, programming, and data visualization, I thrive in the dynamic world of Data Analysis! With a strong belief that Data is the new oil, I am a results-driven data analyst/engineer with a passion for transforming raw data into actionable insights. With a strong foundation in databases, statistics, programming, and data visualization, I thrive in the dynamic world of Data Analysis!</h4>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('publication')">Publication</p>
+                </div>
+                <div class="tab-contents" id="internship">
+                    <ul>
+                        <li><span style="font-weight: bold;">Web Developer Intern</span><br>Squib Factory Private Limited ( May 2020 - Jul 2020 ) <br>Collaborated with in-house web designers to create sleek and innovative UI design.
+                            Developed user interfaces with modern JavaScript frameworks, HTML5 and CSS3.
+                            Supported web applications and web sites through database development.</li>
+                            <li><span style="font-weight: bold;">
+                                Junior Software Test Engineer Intern</span><br>Phonato Studios Private Limited ( Dec 2018 - Feb 2019 ) <br>Collaborated with in-house web designers to create sleek and innovative UI design.
+                                Developed user interfaces with modern JavaScript frameworks, HTML5 and CSS3.
+                                Supported web applications and web sites through database development.</li>
+                                     
+                    </ul>
+                </div>
+                <div class="tab-contents" id="publication">
+                    <ul>
+                        <li><span>
+                            <h4>An Optimized Method for Segmentation and Classification of Apple Leaf Diseases Based on Machine Learning</h4></span><br>Springer, Singapore · Mar 28, 2021 <a class="publication-icon" href="https://link.springer.com/chapter/10.1007/978-981-33-4305-4_57"><i class="fas fa-external-link-alt"></i></a></li>            
+                    </ul>
+                </div>
+                <div class="tab-contents active-tab" id="experience">
+                    <ul>
+                        <img class="exp-logo" src="images/Deloitte Logoo.png">
+                        <li><span style="font-weight: bold;">Deloitte India ( 2020-2023 )<br>Analyst</span><span></span><br>
+                            <ul>
+                                <li>Implemented Infor EAM software and IBM Cognos for 3 multi-national clients, resulting in improved operational and cost efficiency.</li>
+                                <li>Undertook system analysis and enhanced current ERP system in cloud, leading to a 15% increase in system performance and
+                                    reliability.</li>
+                                <li>Streamlined Database management systems for 3 US and UAE clients, reducing data retrieval time by 25%.</li>
+                                <li>Analyzed and optimized existing SQL queries, achieving a 20% improvement in  query performance, leading to faster data
+                                    retrieval and reduced processing time.</li>
+                              </ul> 
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <img class="buff-logo" src="images/buf-logo.png">
+                        <li><span style="font-weight: bold;">University at Buffalo, The State University of New York</span><br>Master of Science in Management Information Systems (Jul 2023 - Jun 2024)</li>
+                        <img class="srm-logo" src="images/srm_logoi.png">
+                        <li><span style="font-weight: bold;">SRM University-Chennai, India</span><br>Bachelor of Technology in Information Technology (Jun 2016 - July 2020)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- ---------certifications---------------- -->
+<!-- <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/aws.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="https://github.com/akshatchhajer/PortfolioProjects"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        -->
+
+
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="services-list2">
+            <div class="new">
+                <img src="images/aws.jpg">
+                  <div class="layer2">
+                    <h2>AWS Certified Cloud Practioner</h2>
+                    <a href="https://www.credly.com/badges/3a675d1e-88be-4434-b5d0-773b321d7da5/linked_in_profile"><i class="fas fa-external-link-alt"></i></a>
+                 </div> 
+            </div> 
+            
+            <div class="new">
+                <img src="images/psm.jpg">
+                  <div class="layer2">
+                    <h2>Professional Scrum Master-1</h2>
+                    <a href="https://www.credly.com/badges/0a32220f-3e3b-4e78-80fc-47cb74535c85/linked_in_profile"><i class="fas fa-external-link-alt"></i></a>
+                 </div> 
+            </div> 
+
+            <div class="new">
+                <img src="images/GPM.jpg">
+                  <div class="layer2">
+                    <h2>Google Project Management</h2>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/XRS6A2XKAGW9"><i class="fas fa-external-link-alt"></i></a>
+                 </div> 
+            </div> 
+
+            <div class="new">
+                <img src="images/Business Contuinity.jpg">
+                  <div class="layer2">
+                    <h2>Business Contuinity Management ISO22301</h2>
+                    <a href="https://drive.google.com/file/d/1QJBgRaHwtN5axrl3FCkOmAYpVwkG7laF/view?usp=drive_link"><i class="fas fa-external-link-alt"></i></a>
+                 </div> 
+            </div> 
+
+            <div class="new">
+                <img src="images/Statistics for Data Science and Business Analysis_1.jpg">
+                  <div class="layer2">
+                    <h2>Statistics for Data Science and Business Analysis</h2>
+                    <a href="https://drive.google.com/file/d/1AiEpQhnmHCx-FCAO6brsznloavGphkSs/view?usp=drive_link"><i class="fas fa-external-link-alt"></i></a>
+                 </div> 
+            </div> 
+
+            <div class="new">
+                <img src="images/hacker_rank.jpg">
+                  <div class="layer2">
+                    <h2>SQL Intermediate</h2>
+                    <a href="https://www.hackerrank.com/certificates/c654d11e3038"><i class="fas fa-external-link-alt"></i></a>
+                 </div> 
+            </div> 
+
+           
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/aws.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="https://github.com/akshatchhajer/PortfolioProjects"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/psm.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/akshatchhajer/PortfolioProjects" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Lets Connect!</h1>
+                <p><i class="fas fa-paper-plane"></i> chhajer@buffalo.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 1-716-617-1364</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/akshat.chhajer.14"><i class="fab fa-facebook"></i></a>
+              
+                    <a href="https://www.instagram.com/akshatchhajer/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/akshatchhajerpsm"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/AkshatChhajerMIS2024_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Akshat's Portfolio | Created by Akshat Chhajer</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxWjGy_IoInOICm5JYhDje5uaTN2vXyZZL_zIZeQjnkQJD9CUNhqR-QcK9bOKFyb74Nqg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
