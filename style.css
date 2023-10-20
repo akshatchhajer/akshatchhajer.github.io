@@ -426,20 +426,26 @@ nav .fas{
 }
 
 @media only screen and (max-width: 560px){
-    #header{
+    /*#header{
         background-image: url(images/phone-background.png);
+    }*/
+
+    #header{
+        background-image: none;
+        height: 100%;
     }
+
+
     .header-text{
-        margin-top: 100%;
+        margin-top: 40%;
         font-size: 16px;
     }
     .header-text h1{
         font-size: 30px;
     }
-    nav .fas{
+    nav .fa-times{
         display: block;
         font-size: 25px;
-        margin-top: px;
     }
     nav .fa-bars{
         display: block;
@@ -474,8 +480,10 @@ nav .fas{
         font-size: 40px;
     }
     .about-col-1{
-        flex-basis: 120%;
+        flex-basis: auto;  
     }
+    
+
     .about-col-2{
         flex-basis: 100%;
     }
