@@ -480,7 +480,11 @@ nav .fas{
         font-size: 40px;
     }
     .about-col-1{
-        flex-basis: auto;  
+        flex-basis: auto;
+    }
+    .about-col-1 img{
+        height: 80%;
+        
     }
     
 
