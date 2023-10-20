@@ -101,11 +101,11 @@ nav ul li a:hover::after{
 }
 
 .about-col-1{
-    flex-basis: 35%;
+    flex-basis: 40%;
     background: rgb(54, 53, 52);
     border-radius: 15px;
     margin-top: 30px;
-    margin-right: 50px;
+    margin-right: 10px;
     height: 600px;
 }
 .about-col-1 img{
@@ -115,7 +115,7 @@ nav ul li a:hover::after{
     height: 500px;
 }
 .about-col-2{
-    flex-basis: 60%;
+    flex-basis: 55%;
 }
 
 .sub-title{
@@ -425,9 +425,9 @@ nav .fas{
     display: none;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 580px){
     #header{
-        background-image: url(images/phone-background3.png);
+        background-image: url(images/phone-background.png);
     }
     .header-text{
         margin-top: 100%;
@@ -439,7 +439,16 @@ nav .fas{
     nav .fas{
         display: block;
         font-size: 25px;
+        margin-top: px;
     }
+    nav .fa-bars{
+        display: block;
+        font-size: 25px;
+        margin-top: -100px;
+    }
+    
+
+    
     nav ul{
         background: #ff004f;
         position: fixed;
