@@ -425,15 +425,12 @@ nav .fas{
     display: none;
 }
 
-@media only screen and (max-width: 560px){
-    /*#header{
-        background-image: url(images/phone-background.png);
-    }*/
-
+@media only screen and (max-width: 500px){
     #header{
-        background-image: none;
-        height: 100%;
+        background-image: url(images/phone-background.png);
     }
+
+  
 
 
     .header-text{
@@ -517,7 +514,6 @@ nav .fas{
         font-size: 14px;
     }
     #contact{
-       width: 427px;
     }
 }
 #msg{
