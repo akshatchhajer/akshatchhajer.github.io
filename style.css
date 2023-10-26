@@ -489,9 +489,10 @@ nav .fas{
     }
     .about-col-1 img{
         height: auto;
-        width: 100%;
-        padding-top: 20px;
-        padding-bottom: 60px;
+        width: 90%;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 40px;
         
     }
     
@@ -514,6 +515,7 @@ nav .fas{
     }
     .copyright{
         font-size: 14px;
+        width: 430px;
     }
 }
 #msg{
