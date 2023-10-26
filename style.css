@@ -481,9 +481,17 @@ nav .fas{
     }
     .about-col-1{
         flex-basis: auto;
+        min-width: 350px;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: auto;
     }
     .about-col-1 img{
-        height: 80%;
+        height: auto;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 60px;
         
     }
     
