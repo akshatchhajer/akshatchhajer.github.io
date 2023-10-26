@@ -515,7 +515,9 @@ nav .fas{
     }
     .copyright{
         font-size: 14px;
-        width: 430px;
+    }
+    #contact{
+       width: 450px;
     }
 }
 #msg{
