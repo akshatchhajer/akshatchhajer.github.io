@@ -427,7 +427,8 @@ nav .fas{
 
 @media only screen and (max-width: 500px){
     #header{
-        background-image: url(images/phone-background3.png);
+        background-image: url(images/phone-background.png);
+        background-position: left;
     }
 
   
