@@ -426,12 +426,14 @@ nav .fas{
 }
 
 @media only screen and (max-width: 500px){
-    #header{
+    /*#header{
         background-image: url(images/phone-background.png);
-        background-position: left;
-    }
+    }*/
 
-  
+   #header{
+        background-image: none;
+        height: 100%;
+    }
 
 
     .header-text{
